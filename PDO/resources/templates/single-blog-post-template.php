@@ -12,7 +12,6 @@ navigation($header);
 <div class="content">
     <h2><?php echo $title; ?></h2>
     <p class="author">Författare: <?php echo $author; ?></p>
-    <p class="likes">Likes: <?php echo $likes; ?></p>
     <p class="date">Datum: <?php echo $date; ?></p>
     <p class="message"><?php echo $message; ?></p>
     </div>

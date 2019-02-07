@@ -45,7 +45,6 @@ elseif($page == "blogg") {
 	$template = 'single-blog-post';
 	$title = $model[$post]['title'];
 	$author = $model[$post]['author'];
-	$likes = $model[$post]['likes'];
 	$date = $model[$post]['date'];
 	$message = $model[$post]['text'];
 }
